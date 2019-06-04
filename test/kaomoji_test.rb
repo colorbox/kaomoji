@@ -5,7 +5,7 @@ class KaomojiTest < Minitest::Test
     refute_nil ::Kaomoji::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_puniu
+    assert_equal ['(・3・)＼(^o^)／'], Kaomoji.get_unicode_kaomojis('(・3・)＼(^o^)／ぷにう')
   end
 end
