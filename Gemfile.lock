@@ -1,0 +1,45 @@
+PATH
+  remote: .
+  specs:
+    kaomoji (0.1.0)
+      unicode-x
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (10.5.0)
+    unicode-blocks (1.5.0)
+    unicode-categories (1.5.0)
+    unicode-confusable (1.6.0)
+    unicode-display_width (1.6.0)
+    unicode-emoji (2.1.0)
+    unicode-name (1.8.0)
+      unicode-types (~> 1.5)
+    unicode-numeric_value (1.6.0)
+    unicode-scripts (1.5.0)
+    unicode-sequence_name (1.4.0)
+    unicode-types (1.5.0)
+    unicode-x (12.1.0)
+      unicode-blocks (>= 1.5, < 2.0)
+      unicode-categories (>= 1.5, < 2.0)
+      unicode-confusable (>= 1.6, < 2.0)
+      unicode-display_width (>= 1.6, < 2.0)
+      unicode-emoji (>= 2.0, < 3.0)
+      unicode-name (>= 1.8, < 2.0)
+      unicode-numeric_value (>= 1.6, < 2.0)
+      unicode-scripts (>= 1.5, < 2.0)
+      unicode-sequence_name (>= 1.4, < 2.0)
+      unicode-types (>= 1.5, < 2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 2.0)
+  kaomoji!
+  minitest (~> 5.0)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   2.0.1
