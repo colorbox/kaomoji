@@ -15,7 +15,7 @@ module Kaomoji
       normal_char_blocks.include?(target_block.first)
     end
 
-    def get_unicode_kaomojis(str)
+    def get_kaomojis(str)
       return [] if str.chars.length.zero?
 
       kaomojis = (0..str.chars.size-1).map{|i| get_one_unicode_kaomoji_at_index(i, str) if kaomoji_parts?(str.chars[i]) }.uniq.compact

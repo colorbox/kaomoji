@@ -23,8 +23,8 @@ Or install it yourself as:
 
 You can get kaomoji from some strings.
 
-```ruby
-Kaomoji.get_unicode_kaomojis('(・3・)＼(^o^)／ぷにう')
+```irb
+Kaomoji.get_kaomojis('(・3・)＼(^o^)／ぷにう')
 =>(・3・)＼(^o^)／
 ```
 
