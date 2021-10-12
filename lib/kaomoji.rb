@@ -19,7 +19,7 @@ module Kaomoji
       return [] if str.chars.length.zero?
 
       kaomojis = (0..str.chars.size-1).map{|i| get_one_unicode_kaomoji_at_index(i, str) if kaomoji_parts?(str.chars[i]) }.uniq.compact
-      kaomojis.select{|k|valid_kaomoji?(k)}.reject{|target|kaomojis.map{|kaomoji| (kaomoji!=target) && kaomoji.include?(target)}.any?}
+      kaomojis.select{|k|valid_kaomoji?(k)}.reject {|target| kaomojis.map {|kaomoji| (kaomoji!=target) && kaomoji.include?(target) }.any? }
     end
 
     def get_one_unicode_kaomoji_at_index(index, str)
