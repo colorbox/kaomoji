@@ -25,7 +25,7 @@ You can get kaomoji from some strings.
 
 ```irb
 Kaomoji.get_kaomojis('(・3・)＼(^o^)／ぷにう')
-=>(・3・)＼(^o^)／
+=>['(・3・)＼(^o^)／']
 ```
 
 
